@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="Sign_upPage.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+   
+    <section class="Sign_Window">
+        <h2>Sign Up To Smart City</h2>
+        <hr />
+        <div id="Entry_boxes">
+            <input type="text" name="Name" id="name" placeholder=" First Name" />
+            <input type="text" name="Last_Name" id="Last_name" placeholder=" Last Name" />
+            <input type="number" name="Mobile_no" id="Mobile_Num" placeholder=" Mobile Number " />
+            <input type="email" name="Email" id="Email_id" placeholder=" Email-Id " />
+            <input type="text" name="Username" id="User_Name" placeholder=" Username" />
+            <input type="password" name="password" id="Password" placeholder=" New Password" />
+            <input type="password" name="Re-password" id="Re_password" placeholder=" Re-Enter Password" />
+
+            <label for="gender" id="Gender">Gender:</label>
+            <span id="Span_female">
+                <label for="gender" id="Gender_fe">Female</label>
+                <input type="radio" name="female" id="Female_radio" />
+            </span>
+
+            <span id="Span_male">
+                <label for="gender" id="Gender_Male">Male</label>
+                <input type="radio" name="male" id="male_radio" />
+            </span>
+
+            <span id="Span_other">
+                <label for="gender" id="Gender_oth">Other</label>
+                <input type="radio" name="Other" id="Other_radio" />
+            </span>
+
+            <label for="DOB" id="dob">Date Of Birth:</label>
+            <input type="date" name="Dob" id="DateOB">
+
+            <p>By clicking the Sign up button, You will agree to our Terms and Data Policy.<br>
+                We are Welcoming you to Smart city Portal.</p>
+                <hr>
+                <button id="Signbtn">Sign Up</button>
+        </div>
+    </section>
+</body>
+
+</html>

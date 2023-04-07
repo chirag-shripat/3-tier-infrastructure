@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    content: " ";
+    /* position: absolute; */
+    /* background: url("Images_SmartCity/umed.jpg") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 16; */
+
+
+}
+
+.Sign_Window {
+    height: 630px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 10px;
+    position: relative;
+    top: 30px;
+    /* left: 100px; */
+    /* background-color: black; */
+}
+
+.Sign_Window h2 {
+    font-family: 'Righteous', cursive;
+    /* border: 2px solid red; */
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    /* transition: all 0.8s ease-in; */
+}
+/* 
+.Sign_Window h2:hover {
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+} */
+
+/* Input Boxes  */
+
+#Entry_boxes {
+    /* border: 2px solid yellowgreen; */
+    height: 550px;
+}
+
+#Entry_boxes input {
+    font-size: medium;
+    font-family: 'Acme', sans-serif;
+}
+
+#name {
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Last_name {
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Mobile_Num {
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Email_id {
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#User_Name {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+#Password {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Re_password {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Gender {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Acme', sans-serif;
+    margin: 10px 8px;
+}
+
+#Span_female {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    font-family: 'Acme', sans-serif;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+}
+
+#Span_male {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    font-family: 'Acme', sans-serif;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+}
+
+#Span_other {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    font-family: 'Acme', sans-serif;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+}
+
+#dob {
+    color: rgb(0, 0, 0);
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 10px;
+    display: block;
+}
+
+#DateOB {
+    border-radius: 10px;
+    margin: 0px 10px;
+    width: 120px;
+}
+
+#Entry_boxes p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'Acme', sans-serif;
+}
+
+#Signbtn {
+    height: 2rem;
+    width: 10rem;
+    position: relative;
+    /* top: 120px; */
+    left: 160px;
+    border-radius: 4px;
+    background-color: rgb(255, 226, 5);
+    font-size: large;
+    font-family: 'Righteous', cursive;
+    transition: all 0.2s ease-in 0.3s;
+}
+
+#Signbtn:hover {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: 'Righteous', cursive;
+}

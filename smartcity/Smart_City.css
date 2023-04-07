@@ -1,0 +1,668 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Top Section Start  */
+.top_Section {
+    border: 2px solid rgb(0, 0, 0);
+    height: 70px;
+    background-color: black;
+    margin: 0px;
+}
+
+.top_Section h1 {
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 2rem;
+    margin: 14px;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+.top_details {
+    display: flex;
+    /* border: 2px solid green; */
+    content: " ";
+    /* position: absolute; */
+    height: 660px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.87;
+    background: url("Images_SmartCity/MainPage/celebrateCity.jpg") no-repeat center center/cover;
+}
+
+.navbar_sc01 ul {
+    display: flex;
+    margin: 100px 0px;
+    /* border: 2px solid white; */
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.navbar_sc01 ul li {
+    list-style: none;
+}
+
+.navbar_sc01 ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar_sc01 ul li a:hover {
+    color: rgb(145, 139, 139);
+}
+
+#sec01_search_op input {
+    height: 27px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    width: 200px;
+}
+
+/* Detailing About Section  */
+
+.Details_Jodh_sc002 {
+    /* border: 2px solid yellow; */
+    height: 670px;
+    display: flex;
+}
+
+#Jodh_con_002 {
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    height: 750px;
+    width: 900px;
+    position: relative;
+    top: -100px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#Jodh_con_002 ul {
+    display: flex;
+    /* border: 2px solid green; */
+    width: 400px;
+    justify-content: center;
+    margin: 20px 20px;
+    position: relative;
+    top: 30px;
+}
+
+#Jodh_con_002 ul li {
+    list-style: none;
+}
+
+#Jodh_con_002 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#Jodh_con_002 ul li a:hover {
+    color: gold;
+}
+
+.about_container_sc002 h1 {
+    /* border: 2px solid firebrick; */
+    font-size: 3rem;
+    color: rgb(154, 152, 152);
+    text-align: center;
+    padding: 2px;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+}
+
+.about_container_sc002 h1:hover {
+    color: black;
+}
+
+#line1 {
+    /* border: 2px solid sandybrown; */
+    height: 300px;
+    font-size: 1.3rem;
+    /* padding: 20px; */
+    margin: 0px 40px;
+    text-align: center;
+}
+
+#line2 {
+    /* border: 2px solid sandybrown; */
+    height: 160px;
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 0px 40px;
+    text-align: center;
+    clear: both;
+    overflow: scroll;
+}
+
+#show_hide_con_sc002 {
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    float: right;
+    clear: both;
+    font-size: 1.2rem;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+}
+
+#show_hide_con_sc002:hover {
+    color: blue;
+}
+
+
+
+#btn_con_002 {
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 650px;
+    width: 600px;
+}
+
+
+
+/* Image Section  */
+
+.Image_Jodh_sc003 {
+    /* border: 2px solid cadetblue; */
+    height: 660px;
+}
+
+.section_imgCon {
+    /* border: 2px solid lightgreen; */
+    height: 295px;
+    display: flex;
+}
+
+.Image_container01_sc003 img {
+    height: 290px;
+    width: 900px;
+    margin: 0px 2px;
+    /* border-radius: 10px; */
+}
+
+.Image_container02_sc003 img {
+    height: 290px;
+    width: 585px;
+    margin: 0px 2px;
+    /* border-radius: 10px; */
+}
+
+
+/* Explore Areas Section  */
+
+.explore_container_sc004 {
+    /* border: 2px solid goldenrod; */
+    height: 870px;
+    display: flex;
+}
+
+#contain_area_sc004_01 {
+    /* border: 2px solid firebrick; */
+    height: 790px;
+    width: 650px;
+    margin: 0px 20px;
+}
+
+#contain_area_sc004_01 h1 {
+    /* border: 2px solid rebeccapurple; */
+    font-size: 2.83rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.sc004_areaCon {
+    /* border: 2px solid violet; */
+    height: 640px;
+    width: 540px;
+    margin: auto;
+    overflow: scroll;
+}
+
+.sc004_areaCon a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.local_area01_sc004 {
+    border: 2px solid rgb(234, 234, 234);
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    margin: 15px 0px;
+    display: flex;
+}
+
+.local_area01_sc004:hover {
+    box-shadow: 5px 5px 15px gray;
+}
+
+.local_area01_sc004 img {
+    height: 130px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.detail_con_sc004 h2 {
+    /* border: 2px solid palevioletred; */
+    margin: 4px 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(28, 102, 77);
+    font-family: 'Lato', sans-serif;
+}
+
+.detail_con_sc004 p {
+    /* border: 2px solid palevioletred; */
+    margin: 0px 5px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1rem;
+    font-style: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Map Section Container  */
+
+
+
+#contain_map_sc004_02 {
+    /* border: 2px solid lightcoral; */
+    height: 790px;
+    width: 750px;
+    margin: 0px 10px;
+}
+
+#contain_map_sc004_02 iframe {
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 120px;
+    border-radius: 20px;
+}
+
+/* Jodhpur Top Hotel Section  */
+.Hotel_container_sc005 {
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 620px;
+    background-color: rgb(244, 244, 252);
+
+}
+
+.hotelHead_con_sc005 {
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid forestgreen; */
+}
+
+.hotelHead_con_sc005 h2 {
+    /* border: 2px solid maroon; */
+    font-size: 3rem;
+    margin: 10px 50px;
+    font-family: 'Cinzel', serif;
+}
+
+/* Hotel Detail and Image Section  */
+
+.hotel_detail_con_sc005 {
+    /* border: 2px solid royalblue; */
+    display: flex;
+    height: 200px;
+}
+
+.hotel_con_sc005 {
+    border: 2px solid rgb(224, 219, 219);
+    /* border-radius: 15px; */
+    width: 750px;
+    height: 180px;
+    margin: 4px;
+    display: flex;
+}
+
+.hotel_con_sc005:hover {
+    box-shadow: 10px 10px 20px gray;
+}
+
+
+/* Individual Hotel Containers  */
+.hotel_con_sc005 img {
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+    /* border-radius: 20px; */
+}
+
+.hotel_con_sc005 a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+.hotel_con_sc005 a h2 {
+    /* border: 2px solid red; */
+    margin: 4px;
+}
+
+.hotel_con_sc005 a h4 {
+    /* border: 2px solid red; */
+    margin: 4px;
+}
+
+.hotel_con_sc005 a p {
+    /* border: 2px solid red; */
+    margin: 4px;
+}
+
+
+/* Trasportation Facility Section Start  */
+
+.Trans_Fcon_sc006 {
+    /* border: 2px solid goldenrod; */
+    /* background-color: black; */
+    height: 650px;
+}
+
+.TransFc_Head_con_sc005 {
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid forestgreen; */
+}
+
+.TransFc_Head_con_sc005 h2 {
+    /* border: 2px solid maroon; */
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 10px 50px;
+    font-family: 'Cinzel', serif;
+}
+
+.container_sc4_trains_buses_sc006 {
+    /* border: 2px solid red; */
+    height: 450px;
+    display: flex;
+}
+
+/* Individual train and Bus Section  */
+
+/* Bus Section  */
+#bus_fc_divSc006 {
+    height: 380px;
+    width: 700px;
+    margin: 10px;
+    /* border: 2px solid gray;  */
+    opacity: 0.87;
+    /* background: url("Images_SmartCity/Vector_Images/BusStation_Img1002.jpg") no-repeat center center/cover; */
+}
+
+.bus_con {
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid forestgreen; */
+}
+
+.bus_con h2 {
+    /* border: 2px solid maroon; */
+    font-size: 1.4rem;
+    margin: 10px 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+}
+
+#search_bus_con_sc006 {
+    /* border: 2px solid yellow; */
+    border-radius: 20px;
+    height: 80px;
+    width: 600px;
+    margin: 10px 50px;
+    padding: 4px 14px;
+    /* background-color: white; */
+}
+
+#search_bus_con_sc006 label {
+    color: rgb(0, 0, 0);
+}
+
+.Busimg_sc006 img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+#search_bus_con_sc006 input {
+    height: 35px;
+    width: 150px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn_search_bus {
+    height: 40px;
+    width: 120px;
+    margin: 20px 4px;
+    color: rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgb(255, 53, 53);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn_search_bus:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 32, 32);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.result_sec_con_sc006 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 190px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+}
+
+
+/* Trains Section  */
+#train_fc_divSc006 {
+    margin: 10px;
+    height: 380px;
+    width: 700px;
+    /* border: 2px solid rgb(255, 0, 0);  */
+    opacity: 0.87;
+    /* background: url("Images_SmartCity/Vector_Images/TrainStation_Img1003.webp") no-repeat center center/cover; */
+}
+
+.train_sc005 {
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid forestgreen; */
+}
+
+.train_sc005 h2 {
+    /* border: 2px solid maroon; */
+    font-size: 1.4rem;
+    margin: 10px 50px;
+    font-family: 'Cinzel', serif;
+    color: rgb(0, 0, 0);
+}
+
+#search_train_con_sc006 {
+    /* border: 2px solid yellowgreen; */
+    /* background-color: white; */
+    border-radius: 20px;
+    height: 80px;
+    width: 600px;
+    margin: 10px 50px;
+    padding: 4px 14px;
+}
+
+#search_train_con_sc006 label {
+    color: rgb(0, 0, 0);
+}
+
+#search_train_con_sc006 input {
+    height: 35px;
+    width: 150px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn_search_train {
+    height: 40px;
+    width: 120px;
+    margin: 20px 4px;
+    color: rgb(0, 0, 0);
+    border: 0px solid white;
+    background-color: rgb(255, 53, 53);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn_search_train:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 33, 33);
+    box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+
+/* Footer Section Starts Here  */
+
+.About_sec007_SMcity {
+    /* border: 2px Solid fuchsia; */
+    height: 390px;
+    background-color: black;
+    
+}
+
+#footer_container_sc007 {
+    /* border: 2px solid red; */
+    height: 280px;
+    margin: 30px 200px;
+    width: 1200px;
+    display: flex;
+}
+
+#aboutus_container_sc007 {
+    /* border: 2px solid rgb(24, 255, 24); */
+    width: 500px;
+    align-items: center;
+}
+
+#aboutus_container_sc007 h2 {
+    /* border: 2px solid firebrick; */
+    margin: 20px;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+#aboutus_container_sc007 p {
+    /* border: 2px solid sandybrown; */
+    margin: 10px 40px;
+    color: white;
+}
+
+#aboutus_container_sc007 div {
+    /* border: 2px solid darkcyan; */
+    height: 50px;
+    padding: 0px 30px;
+}
+
+#container_SocialP_sc007 a img{
+    height: 40px;
+    width: 40px;
+    margin: 2px 10px;
+    border-radius: 10px;
+}
+
+/* #youtube_img_sc007{
+    width: 70px;
+} */
+/* Contact Us Section Starts Here  */
+
+#contactUs_container_sc007 {
+    /* border: 2px solid seagreen; */
+    width: 350px;
+}
+
+#contactUs_container_sc007 h2 {
+    /* border: 2px solid firebrick; */
+    margin: 20px;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+#contactUs_container_sc007 li{
+    font-size: 1.1rem;
+    list-style:inside;
+    color: white;
+}
+
+/* Our Members Section Starts Here  */
+
+#OurTeam_container_sc007 {
+    /* border: 2px solid seagreen; */
+    width: 350px;
+}
+
+#OurTeam_container_sc007 h2 {
+    /* border: 2px solid firebrick; */
+    margin: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+#OurTeam_container_sc007  li{
+    list-style:lower-greek;
+    font-size: 1.2rem;
+    color: white;
+}
+
+footer hr{
+    width: 1200px;
+    margin: 2px 200px;
+    color: white;
+}
+
+/* The Last Section  */
+
+#policy_SM_sc007{
+    /* border: 2px solid salmon; */
+    height: 30px;
+    width: 1200px;
+    margin: 15px 200px;
+}
+
+#policy_SM_sc007 ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#policy_SM_sc007 li{
+    list-style: none;
+    /* box-sizing: border-box; */
+    color: white;
+}
+
+#policy_SM_sc007 li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    position: relative;
+    top: -10px;
+}

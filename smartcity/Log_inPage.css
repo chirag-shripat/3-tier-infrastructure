@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.BoxContainer {
+    /* border: 2px solid green; */
+    display: flex;
+    height: 600px;
+}
+
+.BoxContainer {
+    content: "";
+    /* position: absolute; */
+    background: url("Images_SmartCity/MainPage/ViewImg001.jpg") no-repeat center center/cover;
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* Detail_Box Section  */
+.DetailBox {
+    /* border: 2px solid red; */
+    width: 900px;
+    height: 590px;
+}
+
+.DetailBox h1 {
+    display: block;
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+    top: 180px;
+    font-family: 'Cinzel', serif;
+    /* text-shadow: 5px 5px 5px rgb(255, 255, 255); */
+    color: white;
+}
+
+#line1 {
+    /* border: 2px solid black; */
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+    top: 140px;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+/* LogIn Page Portal */
+
+.LogBox {
+    /* border: 2px solid black; */
+    border-radius: 23px;
+    box-shadow: 5px 14px 15px rgb(118, 117, 117);
+    height: 460px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    /* left: 100px; */
+    clear: right;
+    background-color: aliceblue;
+}
+
+.form-Name label {
+    font-size: xx-large;
+    font-family: 'Righteous', cursive;
+    /* border: 2px solid black; */
+    text-shadow: 12px 12px 12px gainsboro;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.form-group {
+    display: block;
+    clear: both;
+    /* border: 2px solid yellow; */
+    height: 300px;
+}
+
+.form-group label {
+    font-size: x-large;
+    /* font-family: 'Ubuntu Mono', monospace; */
+    position: relative;
+    top: 100px;
+    left: 30px;
+    /* border: 2px solid red; */
+}
+
+.form-group input {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    margin: 20px 0px;
+    /* border: 2px solid red; */
+    border-radius: 6px;
+}
+
+#btnLog {
+    height: 2rem;
+    width: 10rem;
+    position: relative;
+    top: 120px;
+    left: 120px;
+    border-radius: 4px;
+    box-shadow: 5px 8px 12px rgb(130, 130, 130);
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    transition: all 0.2s ease-in 0.3s;
+}
+
+#btnLog:hover {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: 'Righteous', cursive;
+}
+
+.ForRem a {
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid sandybrown; */
+    position: relative;
+    left: 140px;
+}
+
+.ForRem a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#Sign {
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 60px;
+    width: 320px;
+    margin: 20px 40px;
+    display: flex;
+    box-shadow: 8px 8px 10px gainsboro;
+}
+
+#Sign h4 {
+    padding: 0px 20px;
+    font-size: medium;
+    font-family: 'Jura', sans-serif;
+
+}
+
+#Sign a {
+    padding: 25px 0px;
+    text-decoration: none;
+    color: blue;
+}
+
+#Sign a:hover {
+    color: black;
+    text-decoration: underline;
+    /* text-shadow: 2px 2px 20px gray; */
+}
+
+
+.Logfooter {
+    /* border: 2px solid yellow; */
+    height: 74px;
+    /* width: 1480px;
+    clear: both; */
+    background-color: black;
+}
+
+#Footer_detail ul{
+display: flex;
+justify-content: space-evenly;
+width: 900px;
+/* border: 2px solid greenyellow; */
+margin: auto;
+padding: 20px 20px;
+}
+#Footer_detail ul li{
+     list-style: none;
+}
+
+#Footer_detail ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#Footer_detail a:hover{
+text-decoration: underline;
+font-size: 1.2rem;
+color: gold;
+}
